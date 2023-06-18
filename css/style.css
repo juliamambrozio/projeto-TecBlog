@@ -23,6 +23,7 @@ h1{
 ul{
     display: flex;
     list-style: none;
+    margin-left: 30%;
     
     
     
@@ -34,7 +35,11 @@ li{
     padding: 10px;
     margin: 10px;
     text-align: center;
- 
-    
+}
+
+li  a{
+    color:white;
+    text-decoration: none;
+  
 }
 

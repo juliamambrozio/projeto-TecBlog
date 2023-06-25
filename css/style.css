@@ -46,6 +46,11 @@ h2{
     display: block;
 }
 
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
 /*Formatação do menu*/
 
 
@@ -53,12 +58,12 @@ a{
     text-decoration: none;
 }
 
- a:link, a:visited{
+a:link, a:visited{
     color: #f7b600;
 
 }
 
- a:hover{
+a:hover{
     text-decoration: underline;
 }
 
@@ -75,6 +80,7 @@ a{
 #area-cabecalho a:hover{
     color: #f7b600;
     background-color: white;
+    text-decoration: none;
 }
 
 
@@ -88,24 +94,36 @@ div#area-principal{
 
 div#area-postagens{
     width: 660px;
-    float: left;
+    float: left; /*colocar conteúdos lado a lado*/
 
 }
 
 div#area-lateral{
     width: 240px; /*660 + 240 = 900px, quase do tamanho da área principal*/
-    float: right;
+    float: right; /*colocar conteúdos lado a lado*/
     
 }
 
-#area-lateral, #area-postagens{
-    background-color: orange;
-}
+
 
 .postagem{
     padding: 20px;
     margin-bottom: 20px;
     background: white;
+}
+
+/*Conteúdo latera*/
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
 }
 
 #rodape{

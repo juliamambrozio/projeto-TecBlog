@@ -60,7 +60,35 @@ a:hover{
 /*Área principal*/
 
 div#area-principal{
-    background-color: white;
     width: 920px;
+    margin: auto;
 }
 
+div#area-postagens{
+    width: 660px;
+    float: left;
+
+}
+
+div#area-lateral{
+    width: 240px; /*660 + 240 = 900px, quase do tamanho da área principal*/
+    float: right;
+    
+}
+
+#area-lateral, #area-postagens{
+    background-color: orange;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#rodape{
+    clear: both; /*remover o fluxo dos elementos flutuantes*/
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+}

@@ -6,40 +6,61 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color: rgb(255, 187, 0);
- 
-    
-   
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(231, 231, 231);
 }
 
-h1{
-    padding-top: 20px;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
+/*Layout*/
+header#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center; 
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    margin-left: 30%;
-    
-    
-    
-}
-
-li{
-    color: white;
-    font-weight: bold;
+h1#area-logo, #area-menu{
     padding: 10px;
-    margin: 10px;
-    text-align: center;
+
 }
 
-li  a{
+/*Formatação em geral*/
+h1#area-logo{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco{
+    color: white;
+}
+
+/*Formatação do menu*/
+
+
+a{
     color:white;
     text-decoration: none;
+    padding: 8px 12px;
+}
+
   
+
+div a:link a:visited{
+    color: white;
+
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+    padding: 8px 12px;
+}
+
+
+/*Área principal*/
+
+div#area-principal{
+    background-color: white;
+    width: 920px;
 }
 
